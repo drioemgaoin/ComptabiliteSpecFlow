@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComptabiliteSpecFlow", "ComptabiliteSpecFlow\ComptabiliteSpecFlow.csproj", "{DA144E51-CAB3-456F-984E-EEC9CD6E2AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComptabiliteSpecFlow.Tests", "ComptabiliteSpecFlow.Tests\ComptabiliteSpecFlow.Tests.csproj", "{72BC30F0-4147-4BEB-BB94-B9F4813EFE8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A195C307-329B-40A2-8F25-1B6E65E43031}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA144E51-CAB3-456F-984E-EEC9CD6E2AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA144E51-CAB3-456F-984E-EEC9CD6E2AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA144E51-CAB3-456F-984E-EEC9CD6E2AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA144E51-CAB3-456F-984E-EEC9CD6E2AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72BC30F0-4147-4BEB-BB94-B9F4813EFE8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72BC30F0-4147-4BEB-BB94-B9F4813EFE8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72BC30F0-4147-4BEB-BB94-B9F4813EFE8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72BC30F0-4147-4BEB-BB94-B9F4813EFE8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
